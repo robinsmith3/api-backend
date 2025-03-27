@@ -15,3 +15,7 @@ Uses k8s, nginx ingress, nginx, _flask_, gunicon
 - nginx.conf(on a Macbook) is here: /opt/homebrew/etc/nginx/nginx.conf
 - nginx.conf for testing locally on a Mac is in this repo
 - http://127.0.0.1:5000/api/items
+- # Build the image
+docker build -t my-flask-api:latest .
+- # Test it locally
+docker run -p 5000:5000 my-flask-api:latest
