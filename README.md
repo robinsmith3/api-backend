@@ -5,7 +5,7 @@ Create a simple API on nginx with simple backend on k8s for demos
 https://x.com/i/grok/share/d3CSEtNoHPjIjE4HvwnyvZmkE
 
 ## Requirements
-Uses k8s, nginx ingress, nginx, flask, gunicon
+Uses k8s, nginx ingress, nginx, _flask_, gunicon
 
 ### Caveats
 - need to add path to gunicorn bin export, in .zprofile(on a Macbook): PATH="$PATH:/Users/robinsmith/Library/Python/3.9/bin"
