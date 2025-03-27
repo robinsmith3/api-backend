@@ -8,5 +8,5 @@ https://x.com/i/grok/share/d3CSEtNoHPjIjE4HvwnyvZmkE
 Uses k8s, nginx ingress, nginx, _flask_, gunicon
 
 ### Caveats
-- need to add path to gunicorn bin export, in .zprofile(on a Macbook): PATH="$PATH:/Users/robinsmith/Library/Python/3.9/bin"
+- need to add path to gunicorn bin, export from .zprofile(on a Macbook): PATH="$PATH:/Users/robinsmith/Library/Python/3.9/bin"
 - flag web requests during testing: gunicorn --access-logfile - --bind 127.0.0.1:5000 api:app
